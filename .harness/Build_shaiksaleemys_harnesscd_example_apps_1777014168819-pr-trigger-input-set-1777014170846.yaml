@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_shaiksaleemys_harnesscd_example_apps_1777014168819-pr-trigger-input-set
+  identifier: Build_shaiksaleemys_harnesscd_example_apps_1777014168819prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_shaiksaleemys_harnesscd_example_apps_1777014168819
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
